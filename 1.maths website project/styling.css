@@ -1,0 +1,186 @@
+body{
+    font: Arial, Helvetica, sans-sarif;
+}
+#container
+{
+    width: 1050px;
+    border: 1px solid grey;
+    height: 100px;
+    margin: 0 auto;
+    background: linear-gradient(blue, white);
+
+}
+#header
+{
+    height: 100px;
+    padding:10px 0px;
+}
+#brand
+{ 
+    float: left;
+}
+h1 a
+{
+    font-size: 50px;
+    font-weight: 100;
+    color: red;
+    text-decoration: none; 
+}
+#searchbox
+{
+    float: right;
+    background: linear-gradient(#465784,#784777);
+    width: 400px;   
+    height:50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text
+{
+    float:left;
+    width:200px;
+    padding:5px;
+    font-size: 15px;
+    color: blue;
+    border:1px solid rgb(95, 42, 165);
+    background: white url(images/search.png) right center no-repeat;
+
+}
+.submit
+{
+    float:right;
+    padding:5px;
+    font-weight: bold;
+    color: white;
+    background: #784777;
+    font-size: 15px;
+}
+.clear
+{
+    clear:both;
+}
+#menu
+{
+    height: 70px;
+    background: linear-gradient(yellow,green);
+    padding:7px 0;
+}
+ul
+{
+    list-style: none;
+}
+#menu ul li
+{
+float:left;
+padding:0 30px;
+height: 30px;
+border-right: 1px solid purple;
+}
+#menu ul li:last-child
+{
+    border-right: none;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: purple;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;    
+}
+#menu ul li a:hover
+{
+    font-size: 19px;
+    font-weight:bold;
+    color:blueviolet;
+}
+#intro
+{
+   background: linear-gradient(rgb(0, 128, 107),rgb(0, 204, 255));
+   padding:30px;
+   margin:16px 0;
+   font-size:17px;
+   color:brown;
+    }
+    #intro h3{
+        font-size: 45px;
+        color:rgb(255, 166, 0); 
+        font-weight: normal;
+    }
+    #intro p{
+        font-size:25px;
+        color:brown;
+        text-align: justify;
+
+    }
+    .sidebar{
+        height:500px;
+        width:450px;
+        border: 1px solid rgb(128, 128, 128);
+        border-radius: 20px;
+        padding:10px 30px;
+            }
+            .sidebar h3{
+                color:purple;
+                font-size: 30px;
+            }
+            .sidebar ul{
+                padding:10px 15px;
+            }
+            .sidebar ul li a{
+                text-decoration:none;
+                font-size:20px;
+                color:blue;
+                -webkit-transition: font-size 0.3s ease;
+                -moz-transition: font-size 0.3s ease;
+                -o-transition: font-size 0.3s ease;
+                -ms-transition: font-size 0.3s ease;
+                transition: font-size 0.3s ease; 
+            }
+            #lsb ul{
+                padding-top: 8px;
+            }
+            #lsb ul li{
+                padding-bottom: 6px;
+                padding-left:10px;
+                list-style-image: url(images/geo.png);
+            }
+            .sidebar ul li a:hover{
+                text-decoration: none;
+                color:rgba(255, 0, 0, 0.541);
+                font-size:25px;
+                font-weight: bold;
+            }
+ #lsb{
+     float:left;
+
+ }
+ #lsb ul li{
+     padding:6px;
+ }
+ #rsb ul li{
+     
+    padding-bottom: 6px;
+    padding-left:10px;
+    list-style-image: url(images/tick.png);
+    padding:6px 0 6px 10px;
+}
+
+
+ #rsb{
+     float:right;
+ }
+ .footer{
+     height:60px;
+     background: linear-gradient(orange,brown);
+     padding:10px 30px;
+     margin-top:15px;
+
+
+ }
